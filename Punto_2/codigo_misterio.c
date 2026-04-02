@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void f_alpha(int *p) {
+// con f2 cambio en todo el codigo el nombre de una funcion/variable/cte
+void invertir(int *p) {
     int temp = *p;
     int rev = 0;
     while (temp > 0) {
@@ -25,7 +26,7 @@ void f_gamma(int *p) {
 }
 
 void procesar_enigma(int *valor_referencia) {
-    f_alpha(valor_referencia);
+    invertir(valor_referencia);
     f_beta(valor_referencia);
     f_gamma(valor_referencia);
 }
