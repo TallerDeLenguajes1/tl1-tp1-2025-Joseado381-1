@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 // con f2 cambio en todo el codigo el nombre de una funcion/variable/cte
-void invertir(int *p) {
+void invertirEntero(int *p) {
     int temp = *p;
     int rev = 0;
     while (temp > 0) {
-        rev = (rev * 10) + (temp % 10);
+        rev = (rev * 10) + (temp % 10); // recordatorio el % (div) te da el resto de la division y aqui sirve para guardar el ultimo digito cuando se lo hace en 10
         temp = temp / 10;
     }
     *p = rev;
 }
 
-void f_beta(int *p) {
-    *p = *p / 2;
+void divisionEnteraEn2(int *p) {
+    *p = *p / 2;  // divido en 2
 }
 
-void f_gamma(int *p) {
+void sumarDigitos(int *p) {
     int temp = *p;
     int suma = 0;
     while (temp > 0) {
@@ -26,9 +26,9 @@ void f_gamma(int *p) {
 }
 
 void procesar_enigma(int *valor_referencia) {
-    invertir(valor_referencia);
-    f_beta(valor_referencia);
-    f_gamma(valor_referencia);
+    invertirEntero(valor_referencia);
+    divisionEnteraEn2(valor_referencia);
+    sumarDigitos(valor_referencia);
 }
 
 int main() {
