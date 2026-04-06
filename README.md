@@ -41,3 +41,6 @@ la funcion no duplicaba el valor ingresado, solucion: hacer que la funcion tenga
 _Ejercicio 2 - 4g_
 Los apartados 2 y 3 da el mismo resultado porque el puntero almacena la direccion de memoria de la variable a la que apunta.
 En el punto 4 se obtiene la direccion de memoria del puntero y no es igual a los anteriores porque el puntero es otra variable que tiene otra direccion de memoria.
+
+_Ejercicio 2 - c_
+En el repositorio de github se subio el archivo tp1_1.c con el contenido "Hola Mundo", pensaba que tenia que implementar desde el principio el .gitignore asi que no aparece en los commits el tp1_1.exe
