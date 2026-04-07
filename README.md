@@ -44,3 +44,6 @@ En el punto 4 se obtiene la direccion de memoria del puntero y no es igual a los
 
 _Ejercicio 2 - c_
 En el repositorio de github se subio el archivo tp1_1.c con el contenido "Hola Mundo", pensaba que tenia que implementar desde el principio el .gitignore asi que no aparece en los commits el tp1_1.exe
+
+_Ejercicio 4 - g_
+Esto se debe a que gitignore solo afecta a los archivos que no estaban rastreados, esto significa que si los archivos ya estaban agregados (git add) y confirmados (git commit) Git sigue rastreandolos, por lo tanto apareceran aunque este la regla en gitignore
